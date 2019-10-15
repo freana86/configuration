@@ -7,10 +7,10 @@ server:
 
 backend:
   api:
-    url: http://localhost:8080/api/greeting
+    url: http://localhost:8080/api/greetingg
     
 management:
-   endpoints:
-      web:
-        exposure:
-           include:*
+  endpoints:
+    web:
+      exposure:
+        include: *
