@@ -8,3 +8,9 @@ server:
 backend:
   api:
     url: http://localhost:8080/api/greeting
+    
+management:
+   endpoints:
+      web:
+        exposure:
+           include:*
