@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Web-App
+
+server:
+  port: 8081
+
+backend:
+  api:
+    url: http://localhost:8080/api/greeting
